@@ -54,7 +54,8 @@ After downloading all files, you can open the project in C++ IDE or click direct
 Before running the "main.cpp" that is in Source Files, it is necessary to pass the arguments through the command line. 
 # 
 In Visual Studio, you can do this by selecting the option Debug, and clicking on "SudokuProjekat Debug Properties" (last option).
-After that, go into "Debugging" and in "Command Arguments" type "sudokuLoadFile.txt sudokuSolutionFile.txt", which represent the two files in the Resource Files.
+After that, go into "Debugging" and in "Command Arguments" type: 
+* "sudokuLoadFile.txt sudokuSolutionFile.txt", which represent the two files in the Resource Files.
 # 
 The application loads the Sudoku table from the file "sudokuLoadFile.txt" and checks the solution in the "sudokuSolutionFile.txt" file.
 Feel free to rename the files, but ensure that the corresponding arguments align accordingly.
