@@ -43,9 +43,9 @@ Users can choose to play again for a new iteration.
 
 
 # Functionalities:
-After choosing your color, you play versus the computer by selecting the number of the cell where you want to put your piece/disk. The color does not change who goes first, but is only an implemented detail. The player always plays first.
+After choosing your option, you can either load an existing puzzle from a file or generate a new one. Subsequently, provide the solution manually or allow the program to solve the puzzle for you.
 
-* NOTE: since this is a console application and it prints symbols, the visual design will vary depending on which OS you run it on. The project was done in Visual Studio Code on Windows, so the table will look clean if you run it from there, but it will probably break or look uneven on any other OS.
+* NOTE: since this is a console application and it prints symbols, the visual design will vary depending on which OS you run it on. The project was done in Visual Studio on Windows, so the table will look clean if you run it from there, but it will probably break or look uneven on any other OS.
 #
 
 
@@ -66,13 +66,10 @@ Feel free to rename the files, but ensure that the corresponding arguments align
 
 # How to use
 You choose one of two options on the menu:
-1. Load Sudoku table from a file: the application loads your Sudoku puzzle from the "sudokuLoadFile.txt" file.
-  * 1.1 Load Sudoku solution from a file: this checks the solution in the "sudokuSolutionFile.txt" file, and outputs the game statistics.
-  * 1.2 Automatically generate Sudoku solution in a file: generates a random solution to the given puzzle (if it's possible).
+1. "Load Sudoku table from a file": the application loads your Sudoku puzzle from the "sudokuLoadFile.txt" file.
+  * 1.1 "Load Sudoku solution from a file": this checks the solution in the "sudokuSolutionFile.txt" file, and outputs the game statistics.
+  * 1.2 "Automatically generate Sudoku solution in a file": generates a random solution to the given puzzle (if it's possible).
 # 
-2. Automatically generate new Sudoku table in a file:
-  * 2.1 Load Sudoku solution from a file: 
-# 
-this checks the solution in the "sudokuSolutionFile.txt" file, and outputs the game statistics.
-  * 2.2 Automatically generate Sudoku solution in a file: generates a random solution to the given puzzle (if it's possible).
-#
+2. "Automatically generate new Sudoku table in a file":
+  * 2.1 "Load Sudoku solution from a file": this checks the solution in the "sudokuSolutionFile.txt" file, and outputs the game statistics.
+  * 2.2 "Automatically generate Sudoku solution in a file": generates a random solution to the given puzzle (if it's possible).
