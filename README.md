@@ -55,7 +55,7 @@ Before running the "main.cpp" that is in Source Files, it is necessary to pass t
 # 
 In Visual Studio, you can do this by selecting the option Debug, and clicking on "SudokuProjekat Debug Properties" (last option).
 After that, go into "Debugging" and in "Command Arguments" type: 
-* "sudokuLoadFile.txt sudokuSolutionFile.txt", which represent the two files in the Resource Files.
+* "sudokuLoadFile.txt sudokuSolutionFile.txt", without ' "" ', which represent the two files in the Resource Files.
 # 
 The application loads the Sudoku table from the file "sudokuLoadFile.txt" and checks the solution in the "sudokuSolutionFile.txt" file.
 Feel free to rename the files, but ensure that the corresponding arguments align accordingly.
@@ -65,5 +65,14 @@ Feel free to rename the files, but ensure that the corresponding arguments align
 
 
 # How to use
-You choose black or white color and start playing. You choose one of the free cells which you want by typing in one of given numbers on the table.
+You choose one of two options on the menu:
+1. Load Sudoku table from a file: the application loads your Sudoku puzzle from the "sudokuLoadFile.txt" file.
+  * 1.1 Load Sudoku solution from a file: this checks the solution in the "sudokuSolutionFile.txt" file, and outputs the game statistics.
+  * 1.2 Automatically generate Sudoku solution in a file: generates a random solution to the given puzzle (if it's possible).
+# 
+2. Automatically generate new Sudoku table in a file:
+  * 2.1 Load Sudoku solution from a file: 
+# 
+this checks the solution in the "sudokuSolutionFile.txt" file, and outputs the game statistics.
+  * 2.2 Automatically generate Sudoku solution in a file: generates a random solution to the given puzzle (if it's possible).
 #
