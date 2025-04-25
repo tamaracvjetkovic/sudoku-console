@@ -4,7 +4,7 @@ A console application for the classic game Sudoku.
 
 ---
 
-This was an university project for the course "Object-Oriented Programming 2", taken in the 3rd semester of the Software Engineering and Information Technologies program.
+This was a university project for the course "Object-Oriented Programming 2", taken in the 3rd semester of the Software Engineering and Information Technologies program.
 
 The ``goal`` of the project was to:
 - apply OOP techniques,
