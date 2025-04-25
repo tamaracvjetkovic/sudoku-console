@@ -39,7 +39,7 @@ Date: January, 2024.
 
 # Using the Application ⚙️
 
-To use this website, follow the next steps:
+To use this application, follow the next steps:
 1) clone this repo,
 2) open the project in C++ IDE or click directly on the "SudokuProjekat.sln" file in the downloaded folder,
 3) before running the "main.cpp" that is in Source Files, it is necessary to pass the arguments through the command line:
